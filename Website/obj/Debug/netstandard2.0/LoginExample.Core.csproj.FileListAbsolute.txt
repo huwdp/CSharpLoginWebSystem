@@ -1,9 +1,0 @@
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\LoginExample.Core.deps.json
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\LoginExample.Core.dll
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\LoginExample.Core.pdb
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.csprojAssemblyReference.cache
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.csproj.CoreCompileInputs.cache
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.AssemblyInfoInputs.cache
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.AssemblyInfo.cs
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.dll
-C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\LoginExample.Core.pdb
