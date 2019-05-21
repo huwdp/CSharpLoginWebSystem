@@ -1,0 +1,9 @@
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\Website.deps.json
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\Website.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\bin\Debug\netstandard2.0\Website.pdb
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.csprojAssemblyReference.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.csproj.CoreCompileInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.AssemblyInfoInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.AssemblyInfo.cs
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\Website\obj\Debug\netstandard2.0\Website.pdb

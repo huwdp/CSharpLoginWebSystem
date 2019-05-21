@@ -1,0 +1,97 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+using LoginExample.WebApp.Mapper;
+using LoginExample.WebApp.Store;
+using LoginExample.WebApp.Controllers;
+using Microsoft.AspNetCore.Authentication.Cookies;
+
+namespace LoginExampleWebApp
+{
+    public class Startup
+    {
+        private readonly IHostingEnvironment _env;
+        private readonly IConfiguration _config;
+        private readonly ILoggerFactory _loggerFactory;
+
+        public Startup(IHostingEnvironment env,
+            IConfiguration config,
+            ILoggerFactory loggerFactory)
+        {
+            _env = env;
+            _config = config;
+            _loggerFactory = loggerFactory;
+        }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
+        public void ConfigureServices(IServiceCollection services)
+        {
+            var logger = _loggerFactory.CreateLogger<Startup>();
+
+            if (_env.IsDevelopment())
+            {
+                // Development service configuration
+
+                logger.LogInformation("Development environment");
+            }
+            else
+            {
+                // Non-development service configuration
+
+                logger.LogInformation($"Environment: {_env.EnvironmentName}");
+            }
+
+            // https://docs.microsoft.com/en-us/ef/core/get-started/aspnetcore/new-db?tabs=visual-studio
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            services.AddDbContext<DatabaseContext>
+                (options => options.UseSqlite(_config["ConnectionString"]));
+            services.AddMvc();
+
+            // Register components
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            services.AddSingleton<IUserMapper, UserMapper>();
+            services.AddSingleton<IUserStore, UserStore>();
+            services.AddTransient<HomeController, HomeController>();
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.UseCookiePolicy();
+            app.UseAuthentication();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{action=Index}/{id?}");
+            });
+        }
+    }
+}

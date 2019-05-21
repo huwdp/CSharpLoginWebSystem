@@ -1,0 +1,14 @@
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\bin\Debug\netcoreapp2.1\LoginExampleWebApp.deps.json
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\bin\Debug\netcoreapp2.1\LoginExampleWebApp.runtimeconfig.json
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\bin\Debug\netcoreapp2.1\LoginExampleWebApp.runtimeconfig.dev.json
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\bin\Debug\netcoreapp2.1\LoginExampleWebApp.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\bin\Debug\netcoreapp2.1\LoginExampleWebApp.pdb
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.csprojAssemblyReference.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.RazorAssemblyInfo.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.RazorAssemblyInfo.cs
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.AssemblyInfoInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.AssemblyInfo.cs
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.RazorTargetAssemblyInfo.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\LoginExampleWebApp\obj\Debug\netcoreapp2.1\LoginExampleWebApp.pdb

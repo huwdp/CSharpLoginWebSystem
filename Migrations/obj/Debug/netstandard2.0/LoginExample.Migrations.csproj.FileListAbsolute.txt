@@ -1,0 +1,9 @@
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\bin\Debug\netstandard2.0\LoginExample.Migrations.deps.json
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\bin\Debug\netstandard2.0\LoginExample.Migrations.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\bin\Debug\netstandard2.0\LoginExample.Migrations.pdb
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.csprojAssemblyReference.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.csproj.CoreCompileInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.AssemblyInfoInputs.cache
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.AssemblyInfo.cs
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.dll
+C:\Users\Huw\source\repos\LoginExampleWebApp\Migrations\obj\Debug\netstandard2.0\LoginExample.Migrations.pdb
